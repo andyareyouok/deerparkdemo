@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@300;400&family=Open+Sans:wght@300;400;600&family=Homemade+Apple&family=Belleza&family=Scope+One&family=Parisienne&family=Anonymous+Pro:wght@400;700&family=Secular+One&family=Montserrat:ital,wght@0,400;0,600;1,600&family=Great+Vibes&family=Varela&family=Lora&family=Marcellus&family=Josefin+Sans:ital@0;1&family=Amiko&family=Petrona:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+/*NAVBAR*/
+
+.navbar h1 {
+    color: #F4F0EC;
+    position: relative;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.navbar img {
+    height: 45px;
+    float: left;
+}
+
+
+.navbar .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+.navbar-nav .active {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #A1C1B5;
+    background: white;
+    border-radius: 20px;
+
+}
+
+
+
+/*
+#navbarmobile .navbar-brand {
+    transform: translateX(-50%);
+    left: 10%;
+    position: relative;
+}*/
+
+
+/*CAROUSEL*/
+
+
+
+.main .d-sm-block .carousel-item img {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f2227;
+    background-position: center;
+    object-fit: contain;
+    vertical-align: middle;
+    object-position: center;
+    width: 100%;
+
+}
+
+.main .d-sm-none .carousel-item img {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f2227;
+    background-position: center;
+    object-fit: contain;
+    vertical-align: middle;
+    object-position: center;
+    height: 100vh;
+
+}
+
+
+
+/*LANDING PAGE*/
+
+.fa {
+    padding: 15px;
+
+    color: #FFF;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+
+
+.landing {
+    z-index: 2;
+    margin-top: 30vh;
+}
+
+
+.covertext {
+    color: white;
+    text-shadow: 0px 2px 4px #000;
+}
+
+
+.covertext h2 {
+    font-family: Lato;
+}
+
+.covertext .btn {
+    font-size: 15px;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    border-width: 2px;
+}
+
+
+
+#blogs .btn,
+#products .btn,
+#booking .btn {
+    font-size: 15px;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    border-width: 1px;
+}
+
+
+.covertext .btn a,
+.navbar.btn a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.covertext .btn:hover,
+.navbar .btn:hover {
+    color: white;
+    background: #918F94;
+}
+
+
+.covertext .btn a:hover,
+.navbar .btn a:hover {
+    color: white;
+    background: #918F94;
+}
+
+
+#booking .btn:hover,
+#products .btn:hover {
+    color: black;
+    background: white;
+}
+
+
+#booking .btn a:hover,
+#products .btn a:hover {
+    color: black;
+    background: white;
+}
+
+
+/*CONTENT TEXT*/
+
+
+.title {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+
+
+.productblock {
+    color: black;
+    background: white;
+    border-radius: 20px;
+}
+
+
+.calendly-inline-widget {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.product,
+.blog {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.roundblocksm {
+    border-radius: 10px;
+
+}
+
+
+.text-underline {
+    text-decoration: underline;
+}
+
+/*BACKGROUND COLORS*/
+
+.bg-lightgreen {
+    background: #A1C1B5;
+
+}
+
+.bg-cream {
+    background: #FFFDD0;
+}
+
+/*
+.bg-beige {
+    background: #918F94;
+}*/
+
+.bg-white {
+    background: #F4F0EC;
+}
+
+.bg-pink {
+    background: #F9D0C1;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.bg-beige {
+    background: #E8D8CF;
+}
+
+.font-os {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.font-amiko {
+    font-family: 'Amiko', sans-serif;
+}
+
+.font-ap {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.font-belleza {
+    font-family: 'Belleza', sans-serif;
+}
+
+.font-cg {
+    font-family: Cormorant Garamond;
+}
+
+.font-gv {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+.font-marcellus {
+    font-family: 'Marcellus', serif;
+}
+
+.font-parisienne {
+    font-family: 'Parisienne', cursive;
+}
+
+.font-petrona {
+    font-family: 'Petrona', serif;
+}
+
+.font-scopeone {
+    font-family: 'Scope One', serif;
+}
+
+.font-secone {
+    font-family: 'Secular One', sans-serif;
+}
+
+.font-varela {
+    font-family: 'Varela', sans-serif;
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.font-mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.font-js {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.font-maroon {
+    color: #6F3F2D;
+}
+
+.font-white {
+    color: white;
+}
+
+
+
+
+/*LANDING PAGE MOBILE*/
+
+@media (max-width: 600px) {
+
+
+    .landing {
+        margin-top: 25vh;
+
+    }
+
+    .submit.btn {
+        width: 150px;
+    }
+
+    #booking .productblock {
+        border-radius: 20px;
+    }
+
+
+    .product {
+        border: black;
+        border-style: solid;
+        border-width: 1px;
+        border-bottom-left-radius: 70px;
+        border-top-right-radius: 70px;
+
+
+    }
+
+
+
+}
+
+
+/*DESKTOP MEDIA*/
+
+
+@media (min-width: 600px) {
+
+
+    .main #carouselExampleSlidesOnly:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+        z-index: 1;
+        width: 33%
+    }
+
+
+}
