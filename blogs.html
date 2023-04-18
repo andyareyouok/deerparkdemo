@@ -22,37 +22,72 @@
 
     <!--        DESKTOP NAV-->
 
+    <!--    ALTERNATE DESKTOP NAV-->
+
+
+    <!--
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5 bg-lightgreen d-none d-sm-block">
+
+
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+
+        <div>
+
+            <a href="index.html" class="navbar-brand mx-5 mt-3 d-none d-lg-block">
+                <img src="img/logonav.png" class="mr-4">
+                <h1 class="font-secondary text-white font-belleza">Deerpark Beauty</h1>
+
+            </a>
+            <div class="navbar-nav py-2 justify-content-center">
+
+                <a href="index.html" class="nav-item nav-link active heading-2">Home</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="services.html" class="nav-item nav-link">Services</a>
+                <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+            </div>
+        </div>
+    </div>
+</nav>
+-->
+
+
+    <!--        DESKTOP NAV-->
+
 
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5 bg-lightgreen d-none d-sm-block">
 
+        <div class="collapse navbar-collapse py-2 px-2" id="navbarCollapse">
 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
 
-            <div>
+            <div class="border-skinny roundblocksm bg-white w-15">
+                <img src="img/iconheading5.png" class="w-100 h-auto">
+            </div>
 
-                <a href="index.html" class="navbar-brand mx-5 mt-3 d-none d-lg-block">
-                    <img src="img/logonav.png" class="mr-4">
-                    <h1 class="font-secondary text-white">DEERPARK BEAUTY</h1>
 
-                </a>
+            <div class="justify-content-center px-5 mx-5 w-50">
                 <div class="navbar-nav py-2 justify-content-center">
 
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     <a href="services.html" class="nav-item nav-link">Services</a>
-                    <a href="blogs.html" class="nav-item nav-link active heading-2">Blogs</a>
+                    <a href="blogs.html" class="nav-item nav-link  active heading-2 px-4">Blogs</a>
                 </div>
             </div>
         </div>
     </nav>
 
 
+
+
     <!--    MOBILE NAV-->
 
-    <nav class="navbar navbar-default fixed-top shadow-sm bg-lightgreen d-block d-sm-none" role="navigation">
+    <!--
+
+    <nav class="navbar navbar-default fixed-top shadow-sm bg-lightgreen d-block d-sm-none" role="navigation" id="navbarmob">
         <div class="container-fluid">
             <div class="navbar-header pt-3">
 
@@ -75,9 +110,36 @@
             </div>
         </div>
     </nav>
+-->
+
+
+    <nav class="navbar navbar-default fixed-top shadow-sm bg-lightgreen d-block d-sm-none" role="navigation" id="navbarmob">
+        <div class="container-fluid">
+
+            <div class="navbar-header w-75 border-skinny roundblocksm bg-white">
+                <img src="img/iconheading4.png" class="w-100 h-auto">
+            </div>
+
+            <button type="button" class="navbar-toggler bg-white border-skinny" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon my-1"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center bg-lightgreen py-2" id="navbarCollapse">
+
+                <div class="navbar-nav navbar-right">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="services.html" class="nav-item nav-link">Services</a>
+                    <a href="blogs.html" class="nav-item nav-link active">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 
 
+    <button type="button" class="btn homebtn fixed-bottom text-left mb-3">
+        <a href="blogs.html" class="text-white roundcircle bg-lightgreen px-3 py-3 "><i class="fa-solid fa-home"></i></a>
+    </button>
 
     <div class="main px-0 mt-5 pt-5 bg-pink">
         <div class="position-relative">
@@ -86,8 +148,8 @@
 
             <div id="blogs" class="container py-md-5">
                 <row>
-                    <div class="col-4 offset-3 col-md-2 offset-md-2">
-                        <button type="button" class="btn btn-light btn-outline-dark mx-2 text-center py-2 px-3">
+                    <div class="col-4 offset-4 col-md-2 offset-md-0">
+                        <button type="button" class="btn mx-2 text-center py-2 px-3 headingbtn">
                             <h4 class="font-js py-2">Blogs</h4>
                         </button>
                     </div>
@@ -164,7 +226,7 @@
                     <div class="col-sm-12 col-md-8">
                         <div class="mx-3 my-4 py-4 px-5 productblock">
 
-                            <img class="box blog img-fluid my-3 mx-2 d-block d-sm-none" src="img/7skinmain.png">
+                            <img class="box blog img-fluid my-3 mx-1 d-block d-sm-none" src="img/7skinmain.png">
 
 
                             <h2 class="font-mont py-5 px-3 text-center text-underline">7 Tips for healthy skin this summer</h2>
@@ -342,7 +404,7 @@
 
 
             <div class="container bg-pink">
-                <div class="row pt-4 mx-md-5 px-md-5" id="skinproduct">
+                <div class="row pt-4 mx-md-5 px-md-5" id="skincareyoung">
 
 
                     <div class="col-sm-12 col-md-4 d-none d-sm-block">
@@ -406,27 +468,35 @@
 
             </div>
 
-            <div class="container" id="gallery">
 
-                <div class="row">
 
-                    <div class="col-6 col-md-3 px-0 py-0">
-                        <img src="img/gallery1.png" class="img-fluid">
-                    </div>
-                    <div class="col-6 col-md-3 px-0 py-0">
-                        <img src="img/gallery2.png" class="img-fluid">
-                    </div>
 
-                    <div class="col-6 col-md-3 px-0 py-0">
-                        <img src="img/gallery3.png" class="img-fluid">
-                    </div>
-                    <div class="col-6 col-md-3 px-0 py-0">
-                        <img src="img/gallery4.png" class="img-fluid">
-                    </div>
+        </div>
 
+        <div class="container bg-pink mb-5" id="gallery">
+
+            <div class="row">
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery5.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery6.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery7.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery8.png" class="img-fluid">
                 </div>
 
             </div>
+            <ul class="nav justify-content-center pt-5">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 font-os text-muted">Home</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link px-2 font-os text-muted">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 font-os text-muted">Contact Us</a></li>
+                <li class="nav-item"><a href="blogs.html" class="nav-link px-2 font-os text-muted">Blogs</a></li>
+            </ul>
+            <p class="text-center text-maroon py-4">Deerpark Beauty 2023 by Andycarrick.com</p>
 
 
         </div>

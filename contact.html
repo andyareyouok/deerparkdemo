@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Deerpark Beauty</title>
     <link href="https://cdn-icons-png.flaticon.com/512/2883/2883911.png" rel="icon" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
@@ -20,29 +19,57 @@
 
 <body>
 
+    <!--    ALTERNATE DESKTOP NAV-->
+
+
+    <!--
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5 bg-lightgreen d-none d-sm-block">
+
+
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+
+        <div>
+
+            <a href="index.html" class="navbar-brand mx-5 mt-3 d-none d-lg-block">
+                <img src="img/logonav.png" class="mr-4">
+                <h1 class="font-secondary text-white font-belleza">Deerpark Beauty</h1>
+
+            </a>
+            <div class="navbar-nav py-2 justify-content-center">
+
+                <a href="index.html" class="nav-item nav-link active heading-2">Home</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="services.html" class="nav-item nav-link">Services</a>
+                <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+            </div>
+        </div>
+    </div>
+</nav>
+-->
+
+
     <!--        DESKTOP NAV-->
 
 
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5 bg-lightgreen d-none d-sm-block">
 
+        <div class="collapse navbar-collapse py-2 px-2" id="navbarCollapse">
 
 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <div class="border-skinny roundblocksm bg-white w-15">
+                <img src="img/iconheading5.png" class="w-100 h-auto">
+            </div>
 
-            <div>
 
-                <a href="index.html" class="navbar-brand mx-5 mt-3 d-none d-lg-block">
-                    <img src="img/logonav.png" class="mr-4">
-                    <h1 class="font-secondary text-white">DEERPARK BEAUTY</h1>
-
-                </a>
+            <div class="justify-content-center px-5 mx-5 w-50">
                 <div class="navbar-nav py-2 justify-content-center">
 
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="contact.html" class="nav-item nav-link active heading-2">Contact Us</a>
+                    <a href="contact.html" class="nav-item nav-link active heading-2 px-4">Contact Us</a>
                     <a href="services.html" class="nav-item nav-link">Services</a>
                     <a href="blogs.html" class="nav-item nav-link">Blogs</a>
                 </div>
@@ -55,6 +82,7 @@
 
     <!--    MOBILE NAV-->
 
+    <!--
 
     <nav class="navbar navbar-default fixed-top shadow-sm bg-lightgreen d-block d-sm-none" role="navigation" id="navbarmob">
         <div class="container-fluid">
@@ -71,7 +99,31 @@
             <div class="collapse navbar-collapse text-center bg-lightgreen" id="navbarCollapse">
 
                 <div class="navbar-nav navbar-right">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="services.html" class="nav-item nav-link">Services</a>
+                    <a href="blogs.html" class="nav-item nav-link">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+-->
+
+
+    <nav class="navbar navbar-default fixed-top shadow-sm bg-lightgreen d-block d-sm-none" role="navigation" id="navbarmob">
+        <div class="container-fluid">
+
+            <div class="navbar-header w-75 border-skinny roundblocksm bg-white">
+                <img src="img/iconheading4.png" class="w-100 h-auto">
+            </div>
+
+            <button type="button" class="navbar-toggler bg-white border-skinny" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon my-1"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center bg-lightgreen py-2" id="navbarCollapse">
+
+                <div class="navbar-nav navbar-right">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
                     <a href="services.html" class="nav-item nav-link">Services</a>
                     <a href="blogs.html" class="nav-item nav-link">Blogs</a>
@@ -81,137 +133,120 @@
     </nav>
 
 
-
-    <!--
-<div class="main px-0">
-    <div class="row position-relative">
-        <div class="col-sm-12">
+    <button type="button" class="btn homebtn fixed-bottom text-left mb-3">
+        <a href="contact.html" class="text-white roundcircle bg-lightgreen px-3 py-3 "><i class="fa-solid fa-home"></i></a>
+    </button>
 
 
 
-            <div class="d-none d-sm-block carousel-desktop">
-                <div id="carouselExampleSlidesOnly" class="carousel slide text-center" data-interval="10000" data-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item position-relative active">
-                            <img src="img/landing1.jpg" class="d-block" alt="...">
-                        </div>
 
 
+    <div class="main px-0 mt-5 pt-5 bg-beige">
+        <div class="position-relative">
 
+            <div class="my-5"></div>
+
+            <div id="contact" class="py-md-5 pb-5">
+                <div class="row pt-4 mx-md-5 px-md-5 pt-3">
+                    <div class="col-sm-12 col-md-5 offset-md-1 px-5 overflow-hidden">
+                        <button type="button" class="btn mx-2 text-center py-2 px-3 headingbtn">
+                            <h4 class="font-js py-2">Contact Info</h4>
+                        </button>
                     </div>
                 </div>
-            </div>
+
+
+
+                <div class="row mx-md-5 px-md-5 align-items-top">
+
+                    <div class="col-sm-12 col-md-5 offset-md-1 px-5 py-2 py-md-5">
+
+                        <div class="productblock mt-4 px-3 px-md-5 py-3 h-100">
+                            <h3 class="font-mont pt-4">Send us a Message <i class="fa-envelope fa-solid font-maroon"></i></h3>
+
+                            <form id="contact-form" method="post" action="contact-form.php" class="py-5">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name" required="">
+                                <br>
+
+                                <input name="email" type="text" class="form-control" placeholder="Your e-mail" required="">
+                                <br>
+
+                                <textarea name="message" type="text" class="form-control" rows="4" placeholder="Your message" required="">
+
+                                </textarea>
+                                <br>
+                                <div class="col-md-4 offset-4">
+                                    <input type="Submit" class="form-control submit m-auto" value="Send Message">
+                                </div>
 
 
 
 
-            <div class="d-block d-sm-none carousel-mobile">
+                            </form>
 
-                <div id="carouselExampleSlidesOnly" class="carousel slide text-center" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item position-relative active">
-                            <img src="img/landing2.jpg" class="d-block" alt="...">
                         </div>
-
-
                     </div>
+
+
+
+                    <div class="col-sm-12 col-md-5 px-5 py-2 py-md-5">
+
+                        <div class="productblock mt-4 px-3 px-md-5 py-3 h-100">
+
+                            <h3 class="font-mont pt-4">Talk to us <i class="fa-phone fa-solid font-maroon"></i></h3>
+                            <p class="font-lato font-maroon py-1 lead">059-4993843</p>
+
+                            <h3 class="font-mont py-2">Find us <i class="fa-location-dot fa-solid font-maroon"></i></h3>
+                            <p class="font-lato font-maroon py-2 lead">Virginia, Co. Cavan</p>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9417.901352893907!2d-7.081322199999999!3d53.83440905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485dfdd384d3fb6f%3A0xa00c7a997317eb0!2sRahardrum%2C%20Virginia%2C%20Co.%20Cavan!5e0!3m2!1sen!2sie!4v1681831496187!5m2!1sen!2sie" class="map w-100" style="border-radius:20px; height:250px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
                 </div>
+
             </div>
-
-
-
-
-
         </div>
 
-
-
-
-        <div class="landing col-sm-12 position-absolute align-items-center py-sm-5 px-lg-5 justify-content-center">
+        <div class="container bg-pink" id="gallery">
 
             <div class="row">
-
-                <div class="col-sm-6 offset-sm-3 covertext">
-
-                    <div class="align-items-center justify-content-center py-5">
-
-                        <h1 class="title display-4 font-petrona">A new beauty experience</h1>
-
-                        <div class="py-1 px-5 mb-2 text-center">
-
-                            <h5 class="font-os">Offering a wide range of skincare and massage treatments </h5>
-
-
-                        </div>
-
-                        <div class="py-3">
-
-                            <div class="d-flex justify-content-center">
-
-                                <button type="button" class="btn btn-light btn-outline-dark mx-2 text-center py-2 px-3"><a href="#event"><i class="fa-solid fa-calendar"></i> Book now</a></button>
-
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery5.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery6.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery7.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 px-0 py-0">
+                    <img src="img/gallery8.png" class="img-fluid">
                 </div>
 
             </div>
+            <ul class="nav justify-content-center pt-5">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 font-os text-muted">Home</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link px-2 font-os text-muted">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 font-os text-muted">Contact Us</a></li>
+                <li class="nav-item"><a href="blogs.html" class="nav-link px-2 font-os text-muted">Blogs</a></li>
 
-
-
-        </div>
-
-
-
-
-
-    </div>
-
-</div>-->
-
-
-
-
-    <div id="blogs" class="container bg-pink py-5 my-5">
-
-        <div class="row">
-
-            <div class="offset-sm-3 col-sm-6 col-md-4 offset-md-1">
-
-                <div class="d-flex px-5 py-md-3 mt-5">
-
-                    <button type="button" class="btn btn-light btn-outline-dark mx-2 text-center py-2 px-3"><a>Blog Posts</a></button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="row pt-4">
-
-            <div class="col-12 col-md-4">
-                <img class="box px-md-5 py-3 img-fluid" src="img/blog1.png">
-            </div>
-            <div class="col-12 col-md-4">
-                <img class="box px-md-5 py-3 img-fluid" src="img/blog2.png">
-            </div>
-            <div class="col-12 col-md-4">
-                <img class="box px-md-5 py-3 img-fluid" src="img/blog3.png">
-            </div>
+            </ul>
+            <p class="text-center text-maroon py-4 mb-3">Deerpark Beauty 2023 by Andycarrick.com</p>
 
 
         </div>
     </div>
-
-
 
 
 
@@ -226,4 +261,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     </footer>
 
-</body></html>
+</body>
+
+</html>

@@ -89,7 +89,6 @@ body {
 
 .fa {
     padding: 15px;
-
     color: #FFF;
 }
 
@@ -98,7 +97,11 @@ body {
     text-decoration: none;
 }
 
-
+/*
+.fa-solid{
+    color:#F9D0C1;
+}
+*/
 
 .landing {
     z-index: 2;
@@ -127,14 +130,11 @@ body {
 
 
 
-#blogs .btn,
-#products .btn,
-#booking .btn,
-#blogposts .btn {
+.headingbtn {
     font-size: 15px;
     border-radius: 30px;
     height: 60px;
-    width: 150px;
+    width: auto;
     background-color: white;
     border-width: 1px;
 }
@@ -146,34 +146,6 @@ body {
     text-decoration: none;
 }
 
-
-.covertext .btn:hover,
-.navbar .btn:hover {
-    color: white;
-    background: #918F94;
-}
-
-
-.covertext .btn a:hover,
-.navbar .btn a:hover {
-    color: white;
-    background: #918F94;
-}
-
-
-#booking .btn:hover,
-#products .btn:hover,
-#blogposts .btn:hover {
-    color: black;
-    background: white;
-}
-
-
-#booking .btn a:hover,
-#products .btn a:hover {
-    color: black;
-    background: white;
-}
 
 
 /*CONTENT TEXT*/
@@ -228,6 +200,12 @@ body {
 
 }
 
+.homebtn {
+
+    position: absolute;
+    margin-right: 95%;
+
+}
 
 #gallery img {
     width: 100%;
@@ -237,8 +215,13 @@ body {
 }
 
 .roundblocksm {
-    border-radius: 10px;
+    border-radius: 25px;
+    overflow: hidden;
 
+}
+
+.roundcircle {
+    border-radius: 50%;
 }
 
 
@@ -256,6 +239,15 @@ body {
 .container.bg-lightgreen {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+
+
+.border-skinny {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
 
 .bg-cream {
     background: #FFFDD0;
@@ -297,7 +289,7 @@ body {
 }
 
 .font-cg {
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', sans-serif;
 }
 
 .font-gv {
