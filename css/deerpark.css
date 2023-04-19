@@ -123,7 +123,7 @@ body {
     font-size: 15px;
     border-radius: 30px;
     height: 60px;
-    width: 150px;
+    width: auto;
     background-color: white;
     border-width: 2px;
 }
@@ -220,8 +220,8 @@ body {
 
 }
 
-.roundcircle {
-    border-radius: 50%;
+.round-circle {
+    border-radius: 200px;
 }
 
 
@@ -246,6 +246,11 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 1px;
+}
+
+#myCarousel a {
+    height: 45px;
+    width: 45px;
 }
 
 
