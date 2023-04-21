@@ -169,7 +169,7 @@ body {
 #testimonials .productblock {
     border-radius: 30px;
     border-top-left-radius: 0px;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.30), 0 7px 6px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -222,6 +222,11 @@ body {
     overflow: hidden;
 }
 
+.boxshadow {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+}
+
 .roundblocksm {
     border-radius: 25px;
     overflow: hidden;
@@ -248,11 +253,6 @@ body {
     background: #A1C1B5;
 
 }
-
-.container.bg-lightgreen {
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
-}
-
 
 
 .border-skinny {
@@ -282,8 +282,10 @@ body {
 
 .bg-pink {
     background: #F9D0C1;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+
+
 
 .bg-beige {
     background: #E8D8CF;
